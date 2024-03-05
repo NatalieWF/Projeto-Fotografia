@@ -13,16 +13,6 @@ header {
     font-size: 25px;
 }
   
-audio {
-    width: 250px; /* Largura da caixa de áudio */
-    height: 40px; /* Altura da caixa de áudio */
-    border-radius: 10px; /* Borda arredondada */
-    margin-top: 15px;
-    margin-bottom: 2px; /* Espaço entre caixa de áudio e outros elementos */
-}
-
-
-
 .gallery {
     display: flex;
     justify-content: space-around;
