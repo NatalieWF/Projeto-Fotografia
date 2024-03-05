@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dd805e;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+  
+audio {
+    width: 250px; /* Largura da caixa de áudio */
+    height: 40px; /* Altura da caixa de áudio */
+    border-radius: 10px; /* Borda arredondada */
+    margin-top: 15px;
+    margin-bottom: 2px; /* Espaço entre caixa de áudio e outros elementos */
+}
+
+
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.photo {
+    margin: 10px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
